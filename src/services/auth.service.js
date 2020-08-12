@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://pizza-delivery-back.herokuapp.com/api/auth';
+const API_URL = 'https://pizza-delivery-back.herokuapp.com/api/auth/';
 
 class AuthService {
   login(username, password) {
