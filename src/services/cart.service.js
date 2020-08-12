@@ -54,7 +54,7 @@ class Cart {
             '5f31c2c0bdbb3449588d6b7d'
         let cart = new Map(JSON.parse(localStorage.getItem('cart')))
         cart.delete('totalPrice')
-        axios.post('http://localhost:8080/api/createorder/', {
+        axios.post('https://pizza-delivery-back.herokuapp.com/api/createorder/', {
             user_id: user_id,
             address: address,
             phone_number: phone_number,

@@ -1,7 +1,7 @@
 import axios from 'axios';
 import authHeader from './auth-header';
 
-const API_URL = 'http://localhost:8080/api/';
+const API_URL = 'https://pizza-delivery-back.herokuapp.com/api/';
 
 class UserService {
     getPublicContent() {
